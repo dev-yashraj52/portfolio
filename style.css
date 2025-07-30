@@ -88,6 +88,16 @@ img {
     translate: 300px 0px;
 }
 
+.links {
+    translate: 70px -50px;
+}
+
+.links i {
+    font-size: 30px;
+    width: 60px;
+}
+
+
 /* skills section */
 .skills {
     background-color: #242734;
@@ -115,4 +125,5 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
+    overflow: hidden;
 }
