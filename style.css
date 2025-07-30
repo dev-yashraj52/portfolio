@@ -68,10 +68,14 @@ img {
 
 /* hero */
 .hero {
-    height: 400px;
+    height: 60vh;
     background-color: #333645;
 }
 
+.hero .grid {
+    height: 100%;
+    align-items: end;
+}
 
 /* Utilities */
 .container {
@@ -86,4 +90,11 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
 }
