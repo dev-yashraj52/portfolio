@@ -89,7 +89,10 @@ img {
 }
 
 /* skills section */
-
+.skills {
+    background-color: #242734;
+    height: 60vh;
+}
 
 
 /* Utilities */
