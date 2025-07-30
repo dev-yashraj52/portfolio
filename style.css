@@ -106,10 +106,11 @@ img {
 
 #intro-text-1 {
     font-size: 20px;
+    opacity: 60%;
 }
 
 #intro-text-2 {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 1.2;
     font-weight: 600;
     padding: 15px 0;
@@ -117,7 +118,9 @@ img {
 
 #intro-text-3 {
     font-size: 17px;
-    margin: 15x 0;
+    line-height: 1.4;
+    margin: 12x 0;
+    opacity: 60%;
 }
 
 /* skills section */
