@@ -186,8 +186,8 @@ img {
     }
 
     .hero-text {
-        padding-left: 0px;
-        margin-left: 50px;
+        padding: 0px 0px;
+        margin: 0 50px;
         align-self: center;
         justify-self: center;
     }
