@@ -75,6 +75,7 @@ img {
 .hero .grid {
     height: 100%;
     align-items: end;
+    overflow: hidden;
 }
 
 .hero h1 {
@@ -125,5 +126,4 @@ img {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
-    overflow: hidden;
 }
