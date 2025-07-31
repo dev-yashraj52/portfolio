@@ -163,13 +163,29 @@ img {
     }
 
     .nav-bar ul {
-        padding: 10px;
+        /* padding: 10px; */
         background-color: rgba(0, 0, 0, 0.1);
         border-radius: 15px;
     }
 
     .nav-bar ul li {
-        border-radius: 15px;
+        padding: 10px;
+    }
+
+    #nav-link-1 {
+        border-radius: 15px 0px 0 15px;
+    }
+
+    #nav-link-2 {
+        border-radius: 0;
+    }
+
+    #nav-link-3 {
+        border-radius: 0px 15px 15px 0;
+    }
+
+    .nav-bar ul li:hover {
+        background-color: #FFC255;
     }
 
     .grid,
